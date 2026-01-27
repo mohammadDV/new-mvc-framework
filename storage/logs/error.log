@@ -1,0 +1,1098 @@
+[2026-01-24 18:44:33] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 18:44:39] ValueError: "1" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:155
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(155): App\Enums\PostStatusType::from('1')
+#1 [internal function]: App\Controllers\PostController->update('1')
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 18:44:39] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 18:45:51] ValueError: "1" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:155
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(155): App\Enums\PostStatusType::from('1')
+#1 [internal function]: App\Controllers\PostController->update('1')
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 18:45:51] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 18:45:51] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 18:46:37] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 18:46:39] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 18:46:43] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 18:50:46] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 18:50:46] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 18:50:56] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 18:51:06] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 18:51:12] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 18:51:26] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 18:52:00] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 18:52:04] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:20:54] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:21:04] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:21:13] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:21:26] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:21:33] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:21:50] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:21:58] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:21:59] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:22:21] ValueError: "0" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('0')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 19:25:41] ValueError: "0" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('0')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 19:26:37] ValueError: "0" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('0')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 19:26:37] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:26:51] ValueError: "0" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('0')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 19:26:51] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:27:16] ValueError: "0" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('0')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 19:27:16] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:28:01] ValueError: "0" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('0')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 19:28:02] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:28:16] ValueError: "0" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('0')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 19:28:16] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:29:22] ValueError: "0" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('0')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 19:29:22] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:29:30] ValueError: "0" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('0')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 19:29:31] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:29:48] ValueError: "0" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('0')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 19:29:48] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:29:59] ValueError: "0" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('0')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 19:29:59] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:30:37] ValueError: "1" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('1')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 19:31:05] ValueError: "1" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('1')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 19:31:05] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:31:10] ValueError: "1" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('1')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-24 19:31:11] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:154
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#3 {main}
+
+[2026-01-24 19:41:22] ValueError: "1" is not a valid backing value for enum App\Enums\PostStatusType in /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(71): App\Enums\PostStatusType::from('1')
+#1 [internal function]: App\Controllers\PostController->store()
+#2 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(79): call_user_func_array(Array, Array)
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(44): System\Router\Routing->run()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 08:08:18] ErrorException: require_once(/Users/mohammaddv/projects/task/project/System/Application/../routes/web.php): Failed to open stream: No such file or directory in /Users/mohammaddv/projects/task/project/System/Application/Application.php:72
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Application/Application.php(72): App\Exceptions\ExceptionHandler->handleError(2, 'require_once(/U...', '/Users/mohammad...', 72)
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(72): require_once()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(21): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 08:09:19] ErrorException: require_once(/Users/mohammaddv/projects/task/routes/web.php): Failed to open stream: No such file or directory in /Users/mohammaddv/projects/task/project/System/Application/Application.php:72
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Application/Application.php(72): App\Exceptions\ExceptionHandler->handleError(2, 'require_once(/U...', '/Users/mohammad...', 72)
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(72): require_once()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(21): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 08:10:09] ErrorException: require_once(/Users/mohammaddv/projects/task/project/../routes/web.php): Failed to open stream: No such file or directory in /Users/mohammaddv/projects/task/project/System/Application/Application.php:72
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Application/Application.php(72): App\Exceptions\ExceptionHandler->handleError(2, 'require_once(/U...', '/Users/mohammad...', 72)
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(72): require_once()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(21): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 09:49:15] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 09:52:15] ErrorException: Undefined variable $isLoggedIn in /Users/mohammaddv/projects/task/project/System/helpers/helpers.php(26) : eval()'d code:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/helpers/helpers.php(26) : eval()'d code(71): App\Exceptions\ExceptionHandler->handleError(2, 'Undefined varia...', '/Users/mohammad...', 71)
+#1 /Users/mohammaddv/projects/task/project/System/helpers/helpers.php(26): eval()
+#2 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(103): view('app.post.show', Array)
+#3 [internal function]: App\Controllers\PostController->show('3')
+#4 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#5 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#6 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#7 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#8 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#9 {main}
+
+[2026-01-25 09:52:33] Error: Class "Auth" not found in /Users/mohammaddv/projects/task/project/System/helpers/helpers.php(26) : eval()'d code:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/helpers/helpers.php(26): eval()
+#1 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(103): view('app.post.show', Array)
+#2 [internal function]: App\Controllers\PostController->show('3')
+#3 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#4 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#5 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#6 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#7 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#8 {main}
+
+[2026-01-25 12:38:00] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 12:39:16] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 12:39:18] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 12:39:18] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 12:39:37] ErrorException: Undefined variable $test in /Users/mohammaddv/projects/task/project/System/helpers/helpers.php:34
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/helpers/helpers.php(34): App\Exceptions\ExceptionHandler->handleError(2, 'Undefined varia...', '/Users/mohammad...', 34)
+#1 /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php(42): view('app.index', Array)
+#2 [internal function]: App\Controllers\HomeController->index()
+#3 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#4 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#5 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#6 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#7 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#8 {main}
+
+[2026-01-25 12:45:45] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 12:49:15] ErrorException: Undefined variable $viewContent in /Users/mohammaddv/projects/task/project/System/helpers/helpers.php:58
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/helpers/helpers.php(58): App\Exceptions\ExceptionHandler->handleError(2, 'Undefined varia...', '/Users/mohammad...', 58)
+#1 /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php(42): view('app.index', Array)
+#2 [internal function]: App\Controllers\HomeController->index()
+#3 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#4 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#5 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#6 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#7 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#8 {main}
+
+[2026-01-25 13:54:46] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 13:59:13] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:32] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:32] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:00:32] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:32] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:00:32] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:33] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:00:33] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:33] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:00:33] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:33] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:33] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:00:34] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:34] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:00:34] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:34] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:00:34] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:35] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:00:35] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:35] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:35] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:00:35] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:00:35] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:35] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:00:35] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:35] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:00:36] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:36] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:00:36] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:36] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:00:36] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:00:36] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:02:03] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:02:03] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:02:04] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:02:04] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:02:04] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:02:05] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:02:05] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:02:05] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:02:05] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:02:05] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:02:26] Error: Call to undefined function App\Controllers\view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:42
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:02:26] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:03:53] Error: Call to undefined function view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:44
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:03:55] Error: Call to undefined function view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:44
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:03:55] Error: Call to undefined function view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:44
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:03:55] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-25 14:03:55] Error: Call to undefined function view() in /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php:44
+Stack trace:
+#0 [internal function]: App\Controllers\HomeController->index()
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(98): call_user_func_array(Array, Array)
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-25 14:03:55] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-26 09:23:09] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:174
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(67): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(22): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-26 11:27:47] ErrorException: Undefined array key "class" in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:124
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(124): App\Exceptions\ExceptionHandler->handleError(2, 'Undefined array...', '/Users/mohammad...', 124)
+#1 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(55): System\Router\Routing->match()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(62): System\Router\Routing->run()
+#3 /Users/mohammaddv/projects/task/project/System/Application/Application.php(21): System\Application\Application->registerRoutes()
+#4 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#5 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#6 {main}
+
+[2026-01-26 11:28:51] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:176
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(109): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(62): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(21): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-26 13:22:11] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:190
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(72): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(62): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(21): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-26 13:22:12] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:190
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(72): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(62): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(21): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-26 17:30:22] Exception: view not Found!!!! in /Users/mohammaddv/projects/task/project/System/View/ViewBuilder.php:46
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/View/ViewBuilder.php(18): System\View\ViewBuilder->viewLoader('app/post/index')
+#1 /Users/mohammaddv/projects/task/project/helper/helpers.php(41): System\View\ViewBuilder->run('app.post.index')
+#2 /Users/mohammaddv/projects/task/project/app/Controllers/PostController.php(44): view('app.post.index', Array)
+#3 [internal function]: App\Controllers\PostController->index()
+#4 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(114): call_user_func_array(Array, Array)
+#5 /Users/mohammaddv/projects/task/project/System/Application/Application.php(62): System\Router\Routing->run()
+#6 /Users/mohammaddv/projects/task/project/System/Application/Application.php(21): System\Application\Application->registerRoutes()
+#7 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#8 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#9 {main}
+
+[2026-01-26 17:30:23] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:188
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(72): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(62): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(21): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-26 17:31:14] App\Exceptions\NotFoundException: Page not found in /Users/mohammaddv/projects/task/project/System/Router/Routing.php:188
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(72): System\Router\Routing->error404()
+#1 /Users/mohammaddv/projects/task/project/System/Application/Application.php(62): System\Router\Routing->run()
+#2 /Users/mohammaddv/projects/task/project/System/Application/Application.php(21): System\Application\Application->registerRoutes()
+#3 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#4 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#5 {main}
+
+[2026-01-26 17:52:38] TypeError: html_entity_decode(): Argument #1 ($string) must be of type string, null given in /Users/mohammaddv/projects/task/project/System/View/ViewBuilder.php:71
+Stack trace:
+#0 /Users/mohammaddv/projects/task/project/System/View/ViewBuilder.php(71): html_entity_decode(NULL, 3, 'UTF-8')
+#1 /Users/mohammaddv/projects/task/project/helper/helpers.php(20): System\View\ViewBuilder->render(Array)
+#2 /Users/mohammaddv/projects/task/project/app/Controllers/HomeController.php(42): view('app.index', Array)
+#3 [internal function]: App\Controllers\HomeController->index()
+#4 /Users/mohammaddv/projects/task/project/System/Router/Routing.php(114): call_user_func_array(Array, Array)
+#5 /Users/mohammaddv/projects/task/project/System/Application/Application.php(62): System\Router\Routing->run()
+#6 /Users/mohammaddv/projects/task/project/System/Application/Application.php(21): System\Application\Application->registerRoutes()
+#7 /Users/mohammaddv/projects/task/project/bootstrap/app.php(3): System\Application\Application->__construct()
+#8 /Users/mohammaddv/projects/task/project/public/default.php(7): require_once('/Users/mohammad...')
+#9 {main}
+

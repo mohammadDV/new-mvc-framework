@@ -1,0 +1,8 @@
+{
+    "editor.formatOnSave": true,
+    "[php]": {
+      "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "php-cs-fixer.rules": "@PSR12",
+    "php-cs-fixer.onsave": true
+  }
