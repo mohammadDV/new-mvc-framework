@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 namespace App\Services\UploadFile;
 
 use App\Exceptions\UnauthorizedException;
@@ -9,57 +12,56 @@ class ImageUpload
 {
     /**
      * Upload and fit image to the given path and name
-     * @param $file
-     * @param $path
-     * @param $name
-     * @param $width
-     * @param $height
+     * @param array $file
+     * @param string $path
+     * @param string $name
+     * @param int|null $width
+     * @param int|null $height
      * @return string
      */
-    public static function UploadAndFitImage(array $file, string $path = 'posts', ?int $width = null, ?int $height = null)
-    {
-        // Get the public directory path
+    public static function uploadAndFitImage(
+        array $file,
+        string $path = 'posts',
+        ?int $width = null,
+        ?int $height = null
+    ): string {
+        // Base public directory
         $publicDir = BASE_DIR . DIRECTORY_SEPARATOR . 'public';
-
-        $datePath = str_replace('/', DIRECTORY_SEPARATOR, date('Y/M/d'));
-        $path = 'images' . DIRECTORY_SEPARATOR . $path . DIRECTORY_SEPARATOR . $datePath;
-        $name = date('Y_m_d_H_i_s_') . rand(10,99);
+    
+        // Create date-based subpath: images/posts/2026/01/28/
+        $datePath = date('Y' . DIRECTORY_SEPARATOR . 'm' . DIRECTORY_SEPARATOR . 'd');
+        $relativePath = 'images' . DIRECTORY_SEPARATOR . $path . DIRECTORY_SEPARATOR . $datePath;
         
-        // Clean and prepare the relative path
-        $path = trim($path, '\/') . DIRECTORY_SEPARATOR; 
-        $name = trim($name, '\/') . '.' . pathinfo($file['name'], PATHINFO_EXTENSION);
-        
-        // Construct the full path within public directory
-        $fullPath = $publicDir . DIRECTORY_SEPARATOR . $path;
-        
-        // Create directory if it doesn't exist
-        if (!is_dir($fullPath)) {
-            if (!mkdir($fullPath, 0777, true))
-            {
-                throw new UnauthorizedException('image resize : failed to create directory');
-            }
+        // Generate unique file name
+        $name = date('Y_m_d_H_i_s_') . rand(10, 99) . '.' . pathinfo($file['name'], PATHINFO_EXTENSION);
+    
+        // Full path on server
+        $fullPath = $publicDir . DIRECTORY_SEPARATOR . trim($relativePath, '\/') . DIRECTORY_SEPARATOR;
+    
+        // Ensure directory exists
+        if (!is_dir($fullPath) && !mkdir($fullPath, 0777, true)) {
+            throw new UnauthorizedException('Image upload failed: unable to create directory.');
         }
-
-        // Check if the directory is writable
+    
+        // Check writability
         if (!is_writable($fullPath)) {
-            throw new UnauthorizedException('Directory is not writable');
+            throw new UnauthorizedException('Directory is not writable.');
         }
-            
+    
+        // Initialize image manager
         $manager = new ImageManager(new GdDriver());
-
-        // If width and height are provided, resize the image
+        $image = $manager->read($file['tmp_name']);
+    
+        // Resize if both width and height are provided
         if ($width && $height) {
-            $image = $manager->read($file['tmp_name'])->resize($width, $height);
-        } else {
-            $image = $manager->read($file['tmp_name']);
+            $image->resize($width, $height);
         }
-        
-        // Save the image to the given path and name
+    
+        // Save the image
         $image->save($fullPath . $name);
-        
-        // Return the path relative to public directory (for use in URLs)
-        // Convert directory separator to forward slash for URL
-        $urlPath = str_replace(DIRECTORY_SEPARATOR, '/', $path);
-        return '/' . $urlPath . $name;
+    
+        // Return relative URL path (forward slashes)
+        $urlPath = str_replace(DIRECTORY_SEPARATOR, '/', $relativePath);
+        return '/' . $urlPath . '/' . $name;
     }
 }

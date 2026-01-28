@@ -308,7 +308,7 @@ class ExceptionHandler
 
         // Check if exception has getStatusCode method
         if (method_exists($exception, 'getStatusCode')) {
-            return $exception->getStatusCode();
+            return call_user_func([$exception, 'getStatusCode']);
         }
 
         return 500;

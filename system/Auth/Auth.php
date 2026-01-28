@@ -34,7 +34,7 @@ class Auth
     private function checkMethod() :bool
     {
         if (!Session::get('user')) {
-            return redirect($this->redirectTo);
+            redirect($this->redirectTo);
         }
         return true;
     }

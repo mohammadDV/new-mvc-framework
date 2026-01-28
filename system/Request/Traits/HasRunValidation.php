@@ -11,7 +11,7 @@ trait HasRunValidation
      */
     protected function errorRedirect()
     {
-        if($this->errorExist == false){
+        if ($this->errorExist === false) {
             return $this->request;
         }
         return back();
@@ -24,7 +24,7 @@ trait HasRunValidation
      */
     private function checkFirstError(string $name) : bool
     {
-        if(!error_exist($name) && !in_array($name, $this->errorVariablesName)){
+        if (!error_exist($name) && !in_array($name, $this->errorVariablesName)) {
             return true;
         }
         return false;
@@ -47,7 +47,7 @@ trait HasRunValidation
      */
     private function checkFileExist(string $name) : bool
     {
-       if(isset($this->files[$name]['name']) && !empty($this->files[$name]['name'])){
+       if (isset($this->files[$name]['name']) && !empty($this->files[$name]['name'])) {
             return true;
        }
        return false;

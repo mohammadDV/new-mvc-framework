@@ -15,33 +15,7 @@ trait HasValidationRules
      */
     public function normalValidation(string $name, array $ruleArray) : void
     {
-        foreach ($ruleArray as $rule) {
-            if ($rule == 'required') {
-                $this->required($name);                
-            } elseif (strpos($rule, 'max:') === 0) {
-                $rule = str_replace('max:', "", $rule);
-                $this->maxStr($name, $rule);                
-            } elseif (strpos($rule, 'min:') === 0) {
-                $rule = str_replace('min:', "", $rule);
-                $this->minStr($name, $rule);
-            } elseif (strpos($rule, 'exists:') === 0) {
-                $rule = str_replace('exists:', "", $rule);
-                $rule = explode(',', $rule);
-                $key = isset($rule[1]) == false ? null : $rule[1];
-                $this->existsIn($name, $rule[0], $key);
-            } elseif (strpos($rule, 'unique:') === 0) {
-                $rule = str_replace('unique:', "", $rule);
-                $rule = explode(',', $rule);
-                $key = isset($rule[1]) == false ? null : $rule[1];
-                $this->unique($name, $rule[0], $key);
-            } elseif ($rule == 'confirmed') {
-                $this->confirm($name);
-            } elseif ($rule == 'email') {                
-                $this->email($name);
-            } elseif ($rule == 'date') {
-                $this->date($name);
-            }
-        }
+        $this->validateField($name, $ruleArray);
     }
 
     /**
@@ -52,22 +26,60 @@ trait HasValidationRules
      */
     public function numberValidation(string $name, array $ruleArray) : void
     {
-        foreach($ruleArray as $rule){
-            if($rule == 'required') {
-                $this->required($name);
-            } elseif(strpos($rule, 'max:') === 0) {
-                $rule = str_replace('max:', "", $rule);
-                $this->maxNumber($name, $rule);
-            } elseif(strpos($rule, "min:") === 0) {
-                $rule = str_replace('min:', "", $rule);
-                $this->minNumber($name, $rule);
-            } elseif(strpos($rule, 'exists:') === 0) {
-                $rule = str_replace('exists:', "", $rule);
-                $rule = explode(',', $rule);
-                $key = isset($rule[1]) == false ? null : $rule[1];
-                $this->existsIn($name, $rule[0], $key);
-            } elseif($rule == 'number') {
-                $this->number($name);
+        $this->validateField($name, $ruleArray, true);
+    }
+
+    /**
+     * Validate a field with given rules
+     *
+     * @param string $name
+     * @param array $ruleArray
+     * @param bool $isNumber Whether the field is a number
+     * @return void
+     */
+    public function validateField(string $name, array $ruleArray, bool $isNumber = false): void
+    {
+        foreach ($ruleArray as $rule) {
+            // Simple rules without parameters
+            $simpleRules = [
+                'required' => 'required',
+                'confirmed' => 'confirm',
+                'email'    => 'email',
+                'date'     => 'date',
+                'number'   => 'number'
+            ];
+
+            if (isset($simpleRules[$rule])) {
+                $method = $simpleRules[$rule];
+
+                // For numbers, override max/min method names
+                if ($isNumber && in_array($method, ['max', 'min'])) {
+                    $method .= 'Number';
+                }
+
+                $this->$method($name);
+                continue;
+            }
+
+            // Rules with parameters
+            if (str_starts_with($rule, 'max:')) {
+                $value = substr($rule, 4);
+                $method = $isNumber ? 'maxNumber' : 'maxStr';
+                $this->$method($name, $value);
+            } elseif (str_starts_with($rule, 'min:')) {
+                $value = substr($rule, 4);
+                $method = $isNumber ? 'minNumber' : 'minStr';
+                $this->$method($name, $value);
+            } elseif (str_starts_with($rule, 'exists:')) {
+                $parts = explode(',', substr($rule, 7));
+                $table = $parts[0];
+                $column = $parts[1] ?? null;
+                $this->existsIn($name, $table, $column);
+            } elseif (str_starts_with($rule, 'unique:')) {
+                $parts = explode(',', substr($rule, 7));
+                $table = $parts[0];
+                $column = $parts[1] ?? null;
+                $this->unique($name, $table, $column);
             }
         }
     }
@@ -202,13 +214,12 @@ trait HasValidationRules
                 $sql = "SELECT COUNT(*) FROM $table WHERE $field = ?";
                 $statement = Database::getInstance()->query($sql, [$value]);
                 $result = $statement->fetchColumn();
-                if($result == 0 || $result === false){
+                if (empty($result)) {
                     $this->setError($name,"$name not already exist");
                 }
             }
         }
     }
-
 
     /**
      * Unique method to validate the unique in the database

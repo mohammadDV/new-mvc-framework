@@ -5,6 +5,7 @@ namespace System\Router;
 use ReflectionMethod;
 use App\Providers\RepositoryServiceProvider;
 use App\Exceptions\NotFoundException;
+use App\Middleware\IMiddleware;
 
 class Routing {
     /**
@@ -77,7 +78,7 @@ class Routing {
             foreach ($match['middleware'] as $middlewareClass) {
                 $middleware = new $middlewareClass();
                 
-                if (!$middleware instanceof \App\Middleware\IMiddleware) {
+                if (!$middleware instanceof IMiddleware) {
                     throw new \RuntimeException("Middleware {$middlewareClass} must implement IMiddleware interface");
                 }
                 
@@ -157,7 +158,7 @@ class Routing {
     {
         // If the reserved route is empty, match the root route
         if (trim($reservedRouteUrl, "/") === "") {
-            return trim($this->currentRoute[0], "/") == "" ? true : false;
+            return trim($this->currentRoute[0], "/") === "" ? true : false;
         }
 
         // Split the reserved route URL into segments and compare with current route

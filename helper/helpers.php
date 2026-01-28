@@ -29,7 +29,7 @@ function view(string $dir, array $vars = []): void
 * @throws \Exception If the layout file is not found
 * @return void
 */
-function layout($layoutName, $vars = []): void
+function layout(string $layoutName, array $vars = []): void
 {
     empty($vars) ? : extract($vars, EXTR_SKIP);
     $layoutPath = BASE_DIR . DIRECTORY_SEPARATOR . 'resources' . DIRECTORY_SEPARATOR . 'view' . DIRECTORY_SEPARATOR . 'layouts' . DIRECTORY_SEPARATOR . "{$layoutName}.blade.php";
@@ -60,7 +60,7 @@ function current_domain(): string
 * @param string $url The url to redirect to
 * @return void
 */
-function redirect_out($url): void
+function redirect_out(string $url): void
 {
     header("Location: ". $url);
     exit;
@@ -72,7 +72,7 @@ function redirect_out($url): void
 * @param string $url The url to redirect to
 * @return void
 */
-function redirect($url): void
+function redirect(string $url): void
 {
     $url = trim($url, '/ ');
     $url = strpos('z' . $url, current_domain()) === 0 ? $url : current_domain() . '/' . $url;
@@ -115,7 +115,7 @@ function old($name): string|null
 * @param string|null $message The message of the flash
 * @return void
 */
-function flash($name, $message = null)
+function flash(string $name, ?string $message = null)
 {
     if(empty($message)) {
         if (isset($_SESSION['temporary_flash'][$name])) {
@@ -137,7 +137,7 @@ function flash($name, $message = null)
 * @param string|null $message The message of the error
 * @return void
 */
-function error($name, $message = null)
+function error(string $name, ?string $message = null)
 {
     if(empty($message))
     {
@@ -159,7 +159,7 @@ function error($name, $message = null)
 * @param string|null $name The name of the error
 * @return bool|int
 */
-function error_exist($name = null) : bool|int
+function error_exist(?string $name = null) : bool|int
 {
     if($name === null) {
         return isset($_SESSION['temporary_errorFlash']) === true ? count($_SESSION['temporary_errorFlash']) : false;
@@ -190,7 +190,7 @@ function all_errors(): array|bool
 * @param string $src The source path
 * @return string The asset URL
 */
-function asset($src)
+function asset(string $src): string
 {
     return current_domain() . ("/" . trim($src, "/ "));
 }

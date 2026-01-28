@@ -8,7 +8,6 @@ use System\Session\Session;
 
 /**
  * CSRF Token Service
- * Handles generation, validation, and management of CSRF tokens
  */
 class CsrfToken
 {
@@ -20,7 +19,7 @@ class CsrfToken
     /**
      * Generate a new CSRF token and store it in session
      * 
-     * @return string The generated token
+     * @return string
      */
     public static function generate(): string
     {

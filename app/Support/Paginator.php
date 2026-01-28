@@ -5,7 +5,6 @@ namespace App\Support;
 /**
  * Paginator Class
  * 
- * Handles pagination logic and data.
  */
 class Paginator
 {

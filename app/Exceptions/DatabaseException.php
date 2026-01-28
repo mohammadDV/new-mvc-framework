@@ -20,7 +20,13 @@ class DatabaseException extends Exception
      */
     public function __construct(string $message = 'Database operation failed', ?PDOException $previous = null)
     {
-        $code = $previous ? $previous->getCode() : 500;
+        $code = 500;
+        if ($previous) {
+            $previousCode = $previous->getCode();
+            
+            // Exception::__construct() requires int, so convert if needed
+            $code = is_numeric($previousCode) ? (int) $previousCode : 500;
+        }
         parent::__construct($message, $code, $previous);
     }
 

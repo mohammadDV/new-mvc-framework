@@ -1,39 +1,60 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Providers;
 
 
 class SessionProvider extends Provider
 {
-    public function boot()
+    /**
+     * Boot the session provider.
+     *
+     * @return void
+     */
+    public function boot(): void
     {
-
-        session_start();
-        if(isset($_SESSION['temporary_flash'])) unset($_SESSION['temporary_flash']);
-        if(isset($_SESSION['temporary_errorFlash'])) unset($_SESSION['temporary_errorFlash']);
-        if(isset($_SESSION['old'])) unset($_SESSION['temporary_old']);
-        if(isset($_SESSION['flash']))
-        {
-            $_SESSION['temporary_flash'] = $_SESSION['flash'];
-            unset($_SESSION['flash']);
-        }
-        if(isset($_SESSION['errorFlash']))
-        {
-            $_SESSION['temporary_errorFlash'] = $_SESSION['errorFlash'];
-            unset($_SESSION['errorFlash']);
+        if (session_status() !== PHP_SESSION_ACTIVE) {
+            session_start();
         }
 
-        if(isset($_SESSION['old']))
-        {
+        $this->handleFlash('flash');
+        $this->handleFlash('errorFlash');
+        $this->handleOldInputs();
+    }
+
+    /**
+     * Handle the flash messages.
+     *
+     * @param string $key The key of the flash message.
+     * @return void
+     */
+    private function handleFlash(string $key): void
+    {
+        $temporaryKey = "temporary_{$key}";
+
+        unset($_SESSION[$temporaryKey]);
+
+        if (isset($_SESSION[$key])) {
+            $_SESSION[$temporaryKey] = $_SESSION[$key];
+            unset($_SESSION[$key]);
+        }
+    }
+
+    /**
+     * Handle the old inputs.
+     *
+     * @return void
+     */
+    private function handleOldInputs(): void
+    {
+        unset($_SESSION['temporary_old']);
+
+        if (isset($_SESSION['old'])) {
             $_SESSION['temporary_old'] = $_SESSION['old'];
             unset($_SESSION['old']);
         }
 
-        $params = [];
-        $params = !isset($_GET) ? $params : array_merge($params, $_GET);
-        $params = !isset($_POST) ? $params : array_merge($params, $_POST);
-        $_SESSION['old'] = $params;
-        unset($params);
-
+        $_SESSION['old'] = array_merge($_GET, $_POST);
     }
 }

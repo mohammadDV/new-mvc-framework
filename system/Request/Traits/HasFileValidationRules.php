@@ -14,9 +14,9 @@ trait HasFileValidationRules
     protected function fileValidation(string $name, array $ruleArray) :void {
         
         foreach ($ruleArray as $rule) {
-            if ($rule == "required") {
+            if ($rule === "required") {
                 $this->fileRequired($name);
-            } elseif (strpos($rule, "mimes:") === 0) {
+            } elseif (str_starts_with($rule, "mimes:")) {
                 $rule = str_replace('mimes:', "", $rule);
                 $rule = explode(',', $rule);
                 $this->fileType($name, $rule);
